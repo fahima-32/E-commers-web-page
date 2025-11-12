@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.headersection{
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header1 .img img{
+    margin: 0;
+    padding: 0;
+}
+.header2 ul {
+    display: flex;
+    gap: 35px;
+}
+.header2 ul li{
+    list-style: none;
+}
+.header2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header3 a{
+    background: none;
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+}
+/* Hero section */
+.herosection{
+    background-color: #f5fcff;
+    padding: 100px 50px;
+    width: auto;
+    height: 496px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.herotext{
+    width: 917px;
+    height: auto;
+}
+.herosection .herotext h2{
+    font-size: 54px;
+    margin: 0;
+}
+.herotext span{
+    color: blue;
+}
+.herotext button{
+    background: blue;
+    color: white;
+    padding: 10px;
+}
+.heroimg {
+    width: 950px;
+    height: 700px;
+}
+.heroimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Hero section 2 */
+.herosection2 {
+    width: auto;
+    height: auto;
+    padding: 100px 50px;
+}
+.hero1 h2{
+    font-size: 54px;
+    margin: 0;
+}
+.hero1 p{
+    font-weight: 900px;
+}
+.hero2{
+    width: auto;
+    height: 370px;
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+.heroicon{
+    width: 405px;
+    height: 370px;
+    background: #f5fcff;
+}
+/* hero section3 */
+.herosection3{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.hero3img{
+    width: 813px;
+    height: 996px;
+    margin-left: 50px;
+}
+.hero3img img{
+    width: 713px;
+    height: 896px;
+    object-fit: cover;
+}
+.hero3text{
+    width: 821px;
+    height: 403px;
+    margin-right: 50px;
+}
+.hero3text p{
+    font-size: 24px;
+}
+.hero3text h2{
+    font-size: 64px;
+    margin: 0;
+}
+
+
+/* portfolio page */
+
+.portfolio{
+    width: auto;
+    height: 1000px;
+    /* background-color: bisque; */
+}
+.portfolio1{
+    width: auto;
+    height: 130px;
+    margin: 70px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.portfolio1text h2{
+    font-size: 50px;
+    margin: 0;
+}
+.portfolio1logo{
+    display: flex;
+    background-color: #e62872;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+.portfolio1logo a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+.portfolio2{
+    margin: 0px 50px;
+    display: flex;
+    gap: 30px;
+}
+.portfoliocard{
+    width: 454px;
+    height: 620px;
+    background: white;
+    box-shadow: 10px 5px rgb(161, 145, 145,0.09);
+}
+.portfolioimg{
+    width: 100%;
+    height: 400px;
+}
+.portfolioimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.portfoliotext{
+    padding: 15px;
+}
+.portfoliotext h2{
+    font-size: 32px;
+}
+.portfoliotext img{
+    width: 16px;
+    height: 16px;
+}
+.portfoliotext span{
+    border-bottom: 1px solid blue;
+    padding-bottom: 15px;
+}
